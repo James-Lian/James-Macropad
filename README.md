@@ -12,6 +12,7 @@ A functional 3x4 layout macropad created following Hack Club's Hackpad guide. De
 
 ## PCB
 Below is the schematic and PCB.
+<br>
 <img width="466" height="610" alt="image" src="https://github.com/user-attachments/assets/73b9e42f-ff6c-4b16-ad2d-2ee9c5b2ba81" />
 <img width="867" height="834" alt="image" src="https://github.com/user-attachments/assets/398214c7-57e5-4c40-a0cb-340faa0f8970" />
 
