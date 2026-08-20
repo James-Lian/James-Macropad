@@ -13,7 +13,7 @@ A functional 3x4 layout macropad created following Hack Club's Hackpad guide. De
 ## PCB
 Below is the schematic and PCB.
 <img width="466" height="610" alt="image" src="https://github.com/user-attachments/assets/73b9e42f-ff6c-4b16-ad2d-2ee9c5b2ba81" />
-<img width="874" height="822" alt="image" src="https://github.com/user-attachments/assets/89dc73f0-2d4f-46b3-9c11-fc756304e5fa" />
+<img width="867" height="834" alt="image" src="https://github.com/user-attachments/assets/398214c7-57e5-4c40-a0cb-340faa0f8970" />
 
 ## Case CAD model
 The case is made up of two parts; a top section and a bottom section. The PCB is mounted plateless on the bottom section. <img width="946" height="628" alt="image" src="https://github.com/user-attachments/assets/1968c931-d70d-4938-b0b0-71b5a0e8fe90" />   
