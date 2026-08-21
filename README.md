@@ -8,7 +8,7 @@ A functional 3x4 layout macropad created following Hack Club's Hackpad guide. De
 - rotary encoder
 - OLED screen
 - custom designed rotary encoder knurled knob
-- 2 profiles (standard + art)
+- 5 profiles (default + numpad + art + art-ctrl + art-shift)
 
 ## PCB
 Below is the schematic and PCB.
@@ -33,3 +33,11 @@ Here's everything needed to make this hackpad.
 - 12x 1N4148 diodes
 - 1x unsoldered Seeed XIAO RP2040
 - + the custom-designed case (3 printed parts: bottom, top, knob)
+ 
+## Assembly
+1. Solder the diodes, Seeeduino, OLED, and rotary encoder to the PCB (recommended in that order)
+2. Install CircuitPython on the Seeeduino, and then KMK, as well as the adafruit_display_text, adafruit_framebuf.mpy, adafruit_displayio_ssd1306.mpy, and adafruit_ssd1306.mpy libraries (recommended to do this before the "Middle" 3d printed part blocks the Seeeduino bootloader button)
+5. Push the 12 Cherry MX switches through the holes in the "Middle" 3d printed part, and then solder the backs of the switches to the PCB
+6. Heatset the inserts into the "Bottom" 3d printed part (4 in total) and install the screws from the top.
+<br>
+<img width="3024" height="3506" alt="image" src="https://github.com/user-attachments/assets/fe5150ec-9cb9-483a-a22e-53147651a4c8" />
