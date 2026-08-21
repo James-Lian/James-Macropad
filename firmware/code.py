@@ -29,11 +29,31 @@ keyboard.row_pins = (board.D0, board.D1, board.D2)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 KEY_LABELS = {
-    0: {0: "ESC", 1: "F2", 2: "F11", 3: "F12", 4: "HOME", 5: "END", 6: "UP", 7: "TG(Default)", 8: "MO(Numpad)", 9: "LEFT", 10: "DOWN", 11: "RIGHT"},
-    1: {0: "Backspace", 1: "7", 2: "8", 3: "9", 4: "Enter", 5: "4", 6: "5", 7: "6", 8: "MO(Numpad)", 9: "1", 10: "2", 11: "3"},
-    2: {0: "A", 1: "S", 2: "E", 3: "R", 4: "Del", 5: "/", 6: "B", 7: "TG(Art)", 8: "Ctrl", 9: "3", 10: "Space", 11: "M"},
-    3: {0: "Ctrl+A", 1: "Ctrl+S", 2: "Ctrl+E", 3: "Ctrl+T", 4: "Ctrl+Shift", 5: "Ctrl+Z", 6: "Ctrl+G", 7: "Ctrl+J", 8: "Ctrl", 9: "Ctrl+X", 10: "Ctrl+C", 11: "Ctrl+R"},
-    4: {0: "Ctrl+Shift+A", 1: "Ctrl+Shift+S", 2: "Minus", 3: "Plus", 4: "Ctrl+Shift", 5: "Ctrl+Shift+Z", 6: "Ctrl+Shift+I", 7: "PgUp", 8: "Ctrl", 9: "C+S+R", 10: "F11", 11: "PgDn"},
+    0: {
+        0: "ESC", 1: "F2", 2: "F11", 3: "F12", 
+        4: "HOME", 5: "END", 6: "UP", 7: "TG(Default)", 
+        8: "MO(Numpad)", 9: "LEFT", 10: "DOWN", 11: "RIGHT"
+    },
+    1: {
+        0: "Backspace", 1: "7", 2: "8", 3: "9", 
+        4: "Enter", 5: "4", 6: "5", 7: "6", 
+        8: "MO(Numpad)", 9: "1", 10: "2", 11: "3"
+    },
+    2: {
+        0: "A", 1: "S", 2: "E", 3: "R", 
+        4: "Del", 5: "/", 6: "B", 7: "TG(Art)", 
+        8: "Ctrl", 9: "3", 10: "Space", 11: "M"
+    },
+    3: {
+        0: "Ctrl+A", 1: "Ctrl+S", 2: "Ctrl+E", 3: "Ctrl+T", 
+        4: "Ctrl+Shift", 5: "Ctrl+Z", 6: "Ctrl+G", 7: "Ctrl+J", 
+        8: "Ctrl", 9: "Ctrl+X", 10: "Ctrl+C", 11: "Ctrl+R"
+    },
+    4: {
+        0: "Ctrl+Shift+A", 1: "Ctrl+Shift+S", 2: "Minus", 3: "Plus", 
+        4: "Ctrl+Shift", 5: "Ctrl+Shift+Z", 6: "Ctrl+Shift+I", 7: "PgUp", 
+        8: "Ctrl", 9: "C+S+R", 10: "F11", 11: "PgDn"
+    },
 }
 
 keyboard.keymap = [
