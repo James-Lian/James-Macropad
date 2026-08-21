@@ -43,7 +43,7 @@ Here's everything needed to make this hackpad.
 <img width="3024" height="3506" alt="image" src="https://github.com/user-attachments/assets/fe5150ec-9cb9-483a-a22e-53147651a4c8" />
 
 ## ⭐ How to Use
-Below is a screenshot of the keymap layers, along with a screenshot of KEY_LABELS that denote what each key does.
+Below is a screenshot of the keymap layers (arranged in a 3x4 layout), along with a screenshot of KEY_LABELS that denote what each key does.
 <br>
 The MO keys temporarily change the macropad's layers when holding them down. The TG keys toggle between the default and art layers. On the art layer (layer 2), holding MO(3) toggles the ART-CTRL layer, essentially acting like a CTRL modifier key and allowing the user to access CTRL-related commands. Holding both the MO(3) and MO(4) keys toggles the ART-CTRL-SHIFT layer, which allows you to access CTRL-SHIFT-related commands and other additional keys. 
 <br>
