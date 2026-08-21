@@ -118,7 +118,7 @@ LAYER_NAMES = {
     1: "NUMPAD",
     2: "ART",
     3: "ART-CTRL",
-    4: "ART-SHIFT"
+    4: "ART-CTRL-SHIFT"
 }
 
 display.entries = [
