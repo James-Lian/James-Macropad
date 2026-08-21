@@ -189,7 +189,7 @@ class OLEDManager:
                 return
             if (self.last_text in KEY_LABELS[3].values()) and (new_text == "Ctrl"):
                 return
-            if (self.last_text in KEY_LABELS[4].values()) and (new_text == "Ctrl+Shift" and self.last_text == "Ctrl+Shift"):
+            if (self.last_text in KEY_LABELS[4].values()) and (new_text == "Ctrl+Shift" and self.last_text != "Ctrl"):
                 return
             
             input_display_entry.text = new_text
